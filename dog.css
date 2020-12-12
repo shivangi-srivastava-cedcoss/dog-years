@@ -1,0 +1,113 @@
+body{
+    background-image:url('Human-animal-YT.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    margin: 0 auto;
+    overflow-y: hidden;
+}
+.heading
+{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align:center;
+}
+.gradient-div
+{
+    background-image: linear-gradient(#000000b5,#ccccccd1);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1
+{
+    margin-left: 5%;
+}
+fieldset
+{
+    width: 270px;
+    margin:14%;
+    padding:28px;
+    border: 2px solid white;
+}
+input[type=submit]
+{
+    margin-top:8%;
+    padding: 9px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 0 #ccc;
+    border: 1px solid black;
+}
+input[type=number], input[type=text]
+{
+    width: 306px;
+    font-size: 17px;
+    padding: 6px 0px;
+}
+.left
+{
+    float:left;
+    width: 40%;
+}
+.right
+{
+    float: left;
+    width: 60%;
+    background-color: lightcoral;
+    height: 100vh;
+}
+.right img
+{
+    margin:-20px;
+}
+@media (min-width:280px) and (max-width:450px)
+{
+    body {
+        overflow-y: auto;
+    }
+    fieldset
+    {
+        width: 76%;
+        margin:5% 5%;
+        padding:5% 2%;
+        border: 2px solid white;
+    }
+    .gradient-div
+    {
+        height: 65vh;
+    }
+    input[type=number], input[type=text]
+    {
+        width: 90%;
+        font-size: 17px;
+        padding: 6px 0px;
+    }
+    p, input[type=number], input[type=text],input[type=submit]
+    {
+        margin-left: 4%;
+    }
+    .heading
+    {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 3% 2%;
+    }
+    .left
+    {
+        width: 100%;
+    }
+    .right
+    {
+        width: 100%;
+        background-color: lightcoral;
+        height: 60vh;
+    }
+    .right img
+    {
+        margin:0px;
+        width: 100%;
+    }
+}

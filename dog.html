@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Years Calculator</title>
+    <link rel="stylesheet" href="dog.css">
+</head>
+<body>
+    <div class="gradient-div left">
+            <div class="heading">Human Age to Dog's Age Calculator</div>
+                <fieldset>
+                    <legend>Get Your age in Dog Years</legend>
+                    <div>
+                        <p>Enter Your age</p>
+                        <div><input type="number" id="human_age"/>
+                    </div>
+                    <div>
+                        <p>Your age in dog years</p>
+                        <div><input type="text" id="dog_age" disabled="disabled"/>
+                    </div>
+                    <div>
+                        <input type="submit" value="Calculate Age" onclick="calcAge()"/>
+                    </div>
+                </fieldset>
+                <!-- <input type="text" id="human_age"/> -->
+                
+                <div id="display_msg" style="display: none;text-align:center;">
+                    <div>
+                        <img src="shocked.gif" style="height:7vh;" alt="shocked">
+                    </div>
+                    <div style="font-size: 20px;font-weight: bold;color:#d22424">
+                        You are over-age now... you are about to break guiness record of oldest dog..
+                    </div>
+                
+                </p>
+            </div>
+    </div>
+    <div class="right">
+        <div class="heading" style="text-align: center;">If you were a dog? How old you have been?</h1>
+        <marquee>
+            <img src="dog.gif" alt="">
+        </marquee>
+    </div>
+</body>
+<script src="dog.js"></script>
+</html>
